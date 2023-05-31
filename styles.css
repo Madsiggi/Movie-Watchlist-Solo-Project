@@ -10,6 +10,56 @@ body {
   padding: 0;
 }
 
+html {
+  background-color: white;
+  min-width: 550px;
+}
+
 body {
+  margin-top: 2em;
   font-family: "Inter", sans-serif;
+}
+
+.banner {
+  max-width: 550px;
+  margin: auto;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(14, 14, 14, 0.7),
+      rgba(14, 14, 14, 0.7)
+    ),
+    url("https://source.unsplash.com/THJJRUhNlEc/");
+  background-size: cover;
+  background-position: 0 20%;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  outline: 2px solid red;
+}
+
+.banner-text {
+  min-height: 210px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.movie-search {
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
 }
