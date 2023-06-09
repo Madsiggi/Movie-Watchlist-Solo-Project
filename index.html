@@ -21,6 +21,14 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Movie Watchlist</title>
   </head>
   <body>
@@ -31,13 +39,19 @@
       </div>
       <form>
         <div class="movie-search">
-          <input type="search" id="mySearch" name="q" class="movie-input" />
+          <input
+            type="search"
+            id="mySearch"
+            name="q"
+            class="movie-input"
+            placeholder="&#xf002; Search for a movie"
+          />
           <button class="movie-btn">Search</button>
         </div>
       </form>
     </header>
     <main>
-      <img src="./assets/images/initial.png" />
+      <img class="start-img" src="./assets/images/initial.png" />
     </main>
   </body>
 </html>
