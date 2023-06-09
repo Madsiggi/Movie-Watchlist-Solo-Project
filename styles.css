@@ -71,13 +71,14 @@ body {
   min-height: 40px;
   width: 350px;
   border: 1px solid #d1d5db;
+  padding-left: 1em;
+  outline: none;
 }
 
 .movie-input::placeholder {
   color: #6b7280;
   font-size: 0.9rem;
   font-weight: 500;
-  padding-left: 1em;
 }
 
 .movie-btn {
